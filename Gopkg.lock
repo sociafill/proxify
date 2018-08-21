@@ -3,18 +3,16 @@
 
 [[projects]]
   branch = "master"
-  digest = "1:8c520a50d95df847d7732e971616b443afb0d95c3be465e3952bfde515d4e47a"
   name = "golang.org/x/net"
   packages = [
     "internal/socks",
-    "proxy",
+    "proxy"
   ]
-  pruneopts = "UT"
   revision = "aaf60122140d3fcf75376d319f0554393160eb50"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  input-imports = ["golang.org/x/net/proxy"]
+  inputs-digest = "34744610471856507a9ee783d045552baeaa3cd9aea9c202d1f47c9edbcafb19"
   solver-name = "gps-cdcl"
   solver-version = 1

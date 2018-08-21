@@ -8,6 +8,6 @@ import (
 
 func main() {
 	proxyPool := pool.NewProxyPool()
-	proxyPool.Add("socks5h://111.231.88.18:1080")
+	proxyPool.Add("socks5://202.87.31.203:1080")
 	fmt.Printf("Proxies pool created: %v\n", proxyPool)
 }
