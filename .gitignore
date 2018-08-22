@@ -13,3 +13,5 @@
 
 # Vendor dir
 /vendor
+
+/.vscode
