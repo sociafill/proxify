@@ -10,10 +10,12 @@ import (
 	"github.com/sociafill/proxify/checker"
 )
 
+// WtfProxyChecker is an check based on wtfismyip.com service
 type WtfProxyChecker struct {
 }
 
-func (*WtfProxyChecker) Check(httpClient *http.Client) (checker.ProxyCheckResult, error) {
+// Check uses API of wtfismyip.com to check http transport of specified client
+func (WtfProxyChecker) Check(httpClient *http.Client) (checker.ProxyCheckResult, error) {
 
 	var result checker.ProxyCheckResult
 
