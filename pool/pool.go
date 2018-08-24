@@ -48,7 +48,6 @@ func (proxyPool *ProxyPool) runChecker(proxyObject *proxy.Proxy) error {
 		return nil
 	}
 	fmt.Printf("Check result: %v\n", checkResult)
-	fmt.Printf("Check result: %t\n", checkResult.TorExit)
 	return nil
 }
 
