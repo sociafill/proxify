@@ -13,7 +13,7 @@ type ProxyCheckResult struct {
 	Location    string
 	Hostname    string
 	ISP         string
-	TorExit     bool
+	IsTorExit   bool
 }
 
 // ProxyChecker is an interface for checkers
